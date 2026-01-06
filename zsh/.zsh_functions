@@ -1,0 +1,4 @@
+# mkc() creates a specified directory and changes to that directory
+mkc() {
+	mkdir "$1" && cd "$1"
+}

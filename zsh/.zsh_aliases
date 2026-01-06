@@ -1,0 +1,17 @@
+#Nvim alias
+alias vi='nvim'
+
+#git aliases
+alias gs='git status'
+alias gc='git commit -m'
+alias gaa='git add -A'
+alias gpo='git push origin'
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias gbd='git branch -d'
+alias gb='git branch'
+alias gd='git diff'
+alias gst='git stash'
+
+
+
