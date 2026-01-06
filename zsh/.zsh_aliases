@@ -1,7 +1,7 @@
-#Nvim alias
+# Nvim alias
 alias vi='nvim'
 
-#git aliases
+# Git aliases
 alias gs='git status'
 alias gc='git commit -m'
 alias gaa='git add -A'
@@ -13,5 +13,23 @@ alias gb='git branch'
 alias gd='git diff'
 alias gst='git stash'
 
+# Bin aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ll='ls -laF'
+alias lc='ls -l | wc -l'
+alias lsa='ls -a'
+
+# System management
+alias c='clear'
+alias h='history'
+
+
+# Prompt before doing it
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias mkdir='mkdir -p'
 
 
