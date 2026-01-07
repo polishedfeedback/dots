@@ -1,0 +1,74 @@
+
+
+[font]
+# The normal (roman) font face to use.
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
+# The bold font face
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+
+# The italic font face
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+
+# Point size of the font
+size = 14.0
+
+# Offset is the extra space around each character. offset.y can be thought of
+# as modifying the linespacing, and offset.x as modifying the letter spacing.
+offset = { x = 0, y = 10}
+
+# Glyph offset determines the locations of the glyphs within their cells with
+# the default being at the bottom. Increasing glyph_offset.y moves the glyphs
+# higher up within their cells, and decreasing it moves the glyphs lower down.
+glyph_offset = { x = 0, y = 0 }
+
+# OS X only: use thin stroke font rendering. Thin strokes are suitable
+# for retina displays, but for non-retina you probably want this set to
+# false.
+
+[window]
+# Blank space added around the window
+padding = {x = 10, y = 10}
+
+# Window Decorations
+decorations = "Buttonless"
+
+# Window opacity
+opacity = 0.75
+
+# Blur text in the background
+blur = true
+
+[selection]
+
+# Selection is copied to clipboard automatically
+save_to_clipboard = true
+
+# [cursor]
+# style = { shape = "Block", blinking = "Off"}
+
+[mouse]
+hide_when_typing = true
+bindings = [
+{ mouse = "Right", action = "Paste" }
+]
+
+[keyboard]
+bindings = [
+{ key = "V", mods = "Command", action = "Paste" },
+{ key = "C", mods = "Command", action = "Copy" },
+{ key = "Right", mods = "Alt", chars= "\u001BF" },
+{ key = "Left", mods = "Alt", chars= "\u001BB" },
+{ key = "Enter", mods = "Command", action= "ToggleFullScreen" },
+{ key = "V", mods = "Alt", action= "ToggleViMode" },
+]
+
+[general]
+# Theme --- Using alacritty
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
